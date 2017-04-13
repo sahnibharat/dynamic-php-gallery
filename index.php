@@ -55,9 +55,10 @@ body
 
 /* The Close Button */
 .close {
-  color: white;
+  color: grey;
   position: absolute;
   top: 10px;
+  opacity:1;
   right: 25px;
   font-size: 35px;
   font-weight: bold;
@@ -87,7 +88,7 @@ body
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: grey;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -110,7 +111,7 @@ body
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: grey;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -206,6 +207,12 @@ img.hover-shadow {
 		width: 47%;
     height: 35%;
 	}
+  .text{
+  font-size:3.5vw;
+  }
+  .modal img{
+  width:80%;
+  }
 }
 @media only screen and (max-width: 420px ){
   .container{
